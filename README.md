@@ -25,7 +25,7 @@ This repository contains my hands-on labs and practice projects using **Terrafor
 terraform-labs/
 - Azure/
 - aws/
-- Gcp/
+- gcp/
 - Modules/
 
 Each cloud folder contains:
