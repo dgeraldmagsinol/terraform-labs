@@ -1,20 +1,45 @@
-# terraforn-labs
-Hands-on labs demonstrating Infastructure-as-Code (IaC) concepts using Terraform to automate resources deployment accross Azure, AWS, and GCP.
-Focuses on automation, provisioning, and scalable infrastructure design.
+# 🧱 Terraform Labs
 
-## Topics Covered
-- Terraform Basics and Providers
-- Variables, Outputs, and Modules
-- Resource Deployment for Azure
-- Future: AWS and GCP Configuration
+This repository contains my hands-on labs and practice projects using **Terraform** for Infrastructure as Code (IaC) across **Azure**, **AWS**, and **GCP**.
 
-## Folder Structure
-terraform-labs
+---
+
+### 🧩 Objectives
+- Learn and apply **Infrastructure as Code (IaC)** concepts  
+- Create reproducible and automated infrastructure deployments  
+- Practice writing Terraform scripts using **variables**, **modules**, and **outputs**  
+- Integrate Terraform with **Azure**, **AWS**, and **GCP** environments  
+
+---
+
+### 📘 Topics Covered
+- Terraform basics (init, plan, apply, destroy)  
+- Providers and authentication setup  
+- Resource creation in multi-cloud environments  
+- Remote state management  
+- Terraform modules and workspaces  
+
+---
+
+### 📁 Repository Structure
+terraform-labs/
 - Azure/
-  - vm-deployment/
-  - networking/
 - aws/
-- gcp/
+- Gcp/
+- Modules/
 
-## Goal
-Build reusable Terraform scripts to automate multi-cloud infrastructure deployment.
+Each cloud folder contains:
+- Provider setup
+- Terraform configuration files (.tf)
+- Output samples and documentation  
+
+---
+
+### 🔗 Related Repositories
+- [Azure Labs](https://github.com/dgeraldmagsinol/azure-labs)
+- [Kubernetes Labs](https://github.com/dgeraldmagsinol/kubernetes-labs)
+- [Back to My Profile](https://github.com/dgeraldmagsinol)
+
+---
+
+📅 **Status:** In progress — focusing on Azure Terraform setups first, expanding to multi-cloud later.
